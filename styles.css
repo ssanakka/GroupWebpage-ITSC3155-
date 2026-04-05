@@ -58,6 +58,16 @@ header nav button:hover {
     flex: 1 1 calc(30% - 40px);
     text-align: center;
     transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+}
+
+.card img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    border-radius: 12px;
 }
 
 .card:hover {
@@ -72,7 +82,11 @@ h2 {
 .bio {
     display: none;
     margin-top: 10px;
-    color: #555;
+    color: #000;
+    background: #2A7B9B;
+    background: linear-gradient(180deg, black 0%, white 100%);
+    border-radius: 14px;
+
 }
 
 /* Button styling */
