@@ -34,35 +34,128 @@
             <div class="container">
                 <p>Sumanth is a cybersecurity student with a strong interest in protecting systems and learning about ethical hacking, network security, and vulnerability assessment.</p>
             </div>
+
+            <div style="text-align:center; margin:20px;">
+
+              <div class="moodboard" style="display:grid; grid-template-columns:repeat(2, 220px); gap:20px; justify-content:center; margin-top:20px;">
+
+                <img src="img/mimg11.png" class="mood-item">
+                <img src="img/mimg12.png" class="mood-item">
+                <img src="img/mimg13.png" class="mood-item">
+                <img src="img/mimg14.png" class="mood-item">
+
+                <!-- Text link as part of grid -->
+                <a href="https://github.com/ssanakka" target="_blank" class="mood-item">My Github</a>
+
+              </div>
+            </div>
+
         </div>
         </div>
     <div class="card">
         <h2>Pearl Patel</h2>
-        <p>UI/UX Designer</p>
+        <p>ENTERTITLEHERE</p>
         <button onclick="toggleBio('bio2')">Show Bio</button>
-        <p id="bio2" class="bio">Emily is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
+        <div id="bio2" class="bio">
+            <div class="container">
+                <img src="img/img2.png" alt="Image One">
+            </div>
+            <div class="container">
+                <p>ENTERBIOHERE</p>
+            </div>
+
+            <div style="text-align:center; margin:20px;">
+
+              <div class="moodboard" style="display:grid; grid-template-columns:repeat(2, 220px); gap:20px; justify-content:center; margin-top:20px;">
+
+                <img src="img/mimg21.png" class="mood-item">
+                <img src="img/mimg22.png" class="mood-item">
+                <img src="img/mimg23.png" class="mood-item">
+                <img src="img/mimg24.png" class="mood-item">
+
+                <!-- Text link as part of grid -->
+                <a href="ENTERGITHUBLINKHERE" target="_blank" class="mood-item">My Github</a>
+
+              </div>
+            </div>
+
+        </div>
     </div>
     <div class="card">
         <h2>Ananya Patchigolla</h2>
-        <p>UI/UX Designer</p>
+        <p>ENTERTITLEHERE</p>
         <button onclick="toggleBio('bio3')">Show Bio</button>
-        <p id="bio3" class="bio">Emily is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
+        <div id="bio3" class="bio">
+            <div class="container">
+                <img src="img/img3.png" alt="Image One">
+            </div>
+            <div class="container">
+                <p>ENTERBIOHERE</p>
+            </div>
+
+            <div style="text-align:center; margin:20px;">
+
+              <div class="moodboard" style="display:grid; grid-template-columns:repeat(2, 220px); gap:20px; justify-content:center; margin-top:20px;">
+
+                <img src="img/mimg31.png" class="mood-item">
+                <img src="img/mimg32.png" class="mood-item">
+                <img src="img/mimg33.png" class="mood-item">
+                <img src="img/mimg34.png" class="mood-item">
+
+                <!-- Text link as part of grid -->
+                <a href="ENTERGITHUBLINKHERE" target="_blank" class="mood-item">My Github</a>
+
+              </div>
+            </div>
+
+        </div>
     </div>
     <div class="card">
         <h2>Mahad Duale</h2>
-        <p>UI/UX Designer</p>
+        <p>ENTERTITLEHERE</p>
         <button onclick="toggleBio('bio4')">Show Bio</button>
-        <p id="bio4" class="bio">Emily is a UI/UX designer with a passion for creating user-friendly interfaces.</p>
+        <div id="bio4" class="bio">
+            <div class="container">
+                <img src="img/img4.png" alt="Image One">
+            </div>
+            <div class="container">
+                <p>ENTERBIOHERE</p>
+            </div>
+
+            <div style="text-align:center; margin:20px;">
+
+              <div class="moodboard" style="display:grid; grid-template-columns:repeat(2, 220px); gap:20px; justify-content:center; margin-top:20px;">
+
+                <img src="img/mimg41.png" class="mood-item">
+                <img src="img/mimg42.png" class="mood-item">
+                <img src="img/mimg43.png" class="mood-item">
+                <img src="img/mimg44.png" class="mood-item">
+
+                <!-- Text link as part of grid -->
+                <a href="ENTERGITHUBLINKHERE" target="_blank" class="mood-item">My Github</a>
+
+              </div>
+            </div>
+
+        </div>
     </div>
 </div>
 
 <!-- Team vision/mission statement section (hidden by default) -->
 <div id="vision" class="container" style="display: none;">
     <h2>Our Mission Statement</h2>
-    <p>We strive to create a collaborative, inclusive, and innovative environment where team members feel empowered to push boundaries and achieve excellence in their craft. Our mission is to deliver high-quality solutions that meet and exceed our clients' expectations.</p>
+    <p>We don't just build software. We foster a culture where curiosity is encouraged and every voice contributes to something better. By each of our unique ideas, we aim to create reliable and scalable solutions that are helpful for everyone who uses them.</p>
 </div>
 
 <script src="script.js"></script> <!-- Link to external JavaScript file -->
+<script>
+  const items = document.querySelectorAll('.mood-item');
+
+  items.forEach(item => {
+    const rotate = (Math.random() - 0.5) * 10; // subtle rotation
+    item.style.transform = `rotate(${rotate}deg)`;
+  });
+</script>
 
 </body>
 </html>
